@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head lang="ru">
-    <title>Моя страница</title>
+    <title>Яхт клуб</title>
     <meta charset="UTF-8">
     <link href="css/style.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="css/outline.css" rel="stylesheet">
+    <link href="css/outline-settings.css" rel="stylesheet">
 </head>
 <body>
     <header>    
-        <img class = "logo" src="img/logotype.png" alt="Логотип яхт-клуба Yacht Club">
+        <div class = "header-block">
+        <img width="64px" height="68px" class = "logo" src="img/logotype.png" alt="Логотип яхт-клуба Yacht Club">
         <nav>
         <ul class = "header-nav">
             <li><a href = "#">Наш клуб</a></li>
@@ -21,41 +24,64 @@
             <li><a href = "#">Контакты</a></li>
         </ul>
         </nav>
-        <img class = "account" src="img/account.png" alt="Иконка">
+        <img width="36px" height="36px" class = "account" src="img/account.png" alt="Иконка">
+        </div>
     </header>
     <main>
         <article class="main-photo-and-title">
         <h1>ВМЕСТЕ ПОД ПАРУСОМ</h1>
-        <div class="main-photo"><img src="img/main-photo-1.jpg" width = "1170px" height="466px" alt = "Главное изображение"></div>
+        <img class="main-photo" src="img/main-photo-1.jpg" width = "1170px" height="466px" alt = "Главное изображение">
         </article>
-        <article  class="Part-of-team">
-            
-            <div class = "Part-of-team-text">
+        <article class = "content">
+        <div class="part-of-team">
+            <div class = "part-of-team-text">
             <p class = "date">20 ОКТЯБРЯ - 19 АПРЕЛЯ</p>
+            <div class = "text-block">
             <h2>Стань частью команды</h2>
             <p>Если вы давно хотели попробовать себя в яхтинге – сейчас самое лучшее время! Мы набираем команду будущих шкиперов. 
                 За 6 месяцев вы станете настоящим капитаном и уже в следующем сезоне сможете самостоятельно выйти в море!
             </p>
             </div>
+            </div>
             <img src="img/photo 2.png" width="600" height="262" alt = "Мужик с биноклем">
-        </article>
-        <article class="born-to-water">
+        </div>
+        <div class="born-to-water">
             
             <div class = "born-to-water-text">
             <p class = "date">16 ИЮЛЯ - 23 ИЮЛЯ</p>
+            <div class = "text-block">
             <h2>Рожденные в воде</h2>
             <p>Подарите детям настоящее приключение! День с морскими пиратами на корабле – это лучшая команда, 
                 веселые аниматоры, игры, соревнования, работа в команде и, конечно, море!
             </p>
             </div>
-            <img src="img/photo 3.png" width="600" height="252" alt = "Яхта с людьми">
+            </div>
+            <img class = "born-to-water-img" src="img/photo 3.png" width="600" height="252" alt = "Яхта с людьми">
+        </div>
         </article>
+
+        <article class = "gallery">
+        <h2>Галерея</h2>
+        <div class = "pictures">
+        <img class = "first-photo" src="img/gallery photo 1.jpg" width="970px" height="690px">
+        <div class = "other-photos">
+            <img src="img/gallery photo 2.jpg" width="170px" height="150px">
+            <img src="img/gallery photo 3.jpg" width="170px" height="150px">
+            <img src="img/gallery photo 4.jpg" width="170px" height="150px">
+            <img src="img/gallery photo 5.jpg" width="170px" height="150px">
+
+        </div>
+        </div>
+        </article>
+
         <article class = "news">
             <h2 class = news-title>Новости</h2>
+            <div class = "news-block">
             <figure>
-                <img src="img/photo.jpg" alt="Моряк">
+                <img class = "sailor-photo" src="img/photo.jpg" alt="Моряк">
                 <figcaption>Победитель регаты шкипер Иван Кулешов</figcaption>
             </figure>
+            <div class = "news-content">
             <h3>Итоги регаты Sochi Race Week 2020</h3>
             <p>
                 Свыше сотни участников собирались на побережье Сочи, чтобы посоревноваться за главный приз. 
@@ -65,7 +91,7 @@
                 На протяжении всего плавания нас сопровождало солнце прекрасная погода, в отдельные дни ветер до 20 узлов. 
                 Регата была прекрасно организована, 135 яхтсменов, 7 экипажей, 9 стран участниц, 4 гоночных дня, 3 дивизиона.
             </p>
-            <h3>Команды-участники:</h3>
+            <h3 class = "teams">Команды-участники:</h3>
             <ul>
                 <li>Восток 35</li>
                 <li>Fortune Sailing</li>
@@ -79,30 +105,30 @@
                 остановившаяся в одном шаге от победы, а в этом сезоне опередившая ближайшего соперника — экипаж «Восток 35» — на <del>12 баллов</del> 5 баллов.</p>
             <div class = "quote"><b>Мы в команде очень дружны и понимаем друг друга без слов, думаю, поэтому мы и победили</b></div>
             <p>Поздравляем победителей и ждем все участников снова на осенних регатах! </p>
-            <img src="img/author.jpg" width = "60" height="60" alt = "Автор">
+            <div class = "news-bottom">
+            <img class = "autor" src="img/author.jpg" width = "60" height="60" alt = "Автор">
             <p class = "name-and-date">
                 <b>Артем Колесников </b> <span class = "description">20.06.2021</span>
             </p>
+            <img class = "share" src="img/share icon.svg">
             </div>
-            <img src="img/share icon.svg">
+            </div>
+            </div>
         </article>
         <article class="contacts">
-            
             <div class = "contacts-text">
             <h2>Контакты</h2>
             <ul>
-                <li>
-                    <b>Адрес:</b>
-                    <p><i>г. Сочи, ул. Бзугу, 9</i></p>
+                <li class = "contact-item">
+                    <p> <b>Адрес:</b> <i>г. Сочи, ул. Бзугу, 9</i></p>
                 </li>
-                <li>
-                    <b>Телефон:</b>
-                    <p> <a class = "link" href = "tel:+7622620563">8 (622) 62-05-63</a></p>
+                <li class = "contact-item">
+                    <p> <b>Телефон:</b> <a class = "link" href = "tel:+7622620563">8 (622) 62-05-63</a></p>
                 </li>
-                <li>
-                    <b>E-mail:</b>
-                    <p><a class = "link" href = "mailto:yachtclub-sochi@mail.ru">yachtclub-sochi@mail.ru</a></p>
-                </li>
+                <li class = "contact-item">
+                    
+                    <p><b>E-mail:</b> <a class = "link" href = "mailto:yachtclub-sochi@mail.ru">yachtclub-sochi@mail.ru</a></p>
+                </li> 
                 <li><b>Мы в социальных сетях:</b>
                     <ul class = "social-media">
                         <li><a><img src="img/facebook.png" alt = "facebook"></a></li>
@@ -112,59 +138,72 @@
                 </li>     
             </ul>
             </div>
-            <a><img src="img/map.png" width="670" height="351" alt = "Яхт-клуб на карте"></a>
-            
+            <img class = "map-img" src="img/map.png" width="670" height="351" alt = "Яхт-клуб на карте">
         </article>
     </main>
     <footer>
+        <div class="footer-block">
+        <div class = "footer-photo-and-copiright-text">
         <img src="img/footer-logotype.png" alt="Логотип яхт-клуба Yacht Club">
         <p><a href="#">Политика конфиденциальности</a></p>
         <p>Яхтклуб ©2020 Все права защищены</p>
-        <ul>
-            <li>
+        </div>
+        <div class = "footer-text">
+        <div class = "footer-text-item footer-company">
             <h2>Компания</h2>
-            <ul class = "footer-title">
+            <ul class = "footer-ul">
                 <li class = "footer-item"><a href = "#">О нас</a></li>
                 <li class = "footer-item"><a href = "#">Команда</a></li>
                 <li class = "footer-item"><a href = "#">Новости</a></li>
                 <li class = "footer-item"><a href = "#">Блок</a></li>
                 <li class = "footer-item"><a href = "#">Галерея</a></li>
             </ul>
-            </li>
-            <li>
-                <h2>Яхт-клуб</h2>
-                <ul class = "footer-title">
+            </div>
+            
+            <div class = "footer-text-item footer-club">
+            <h2>Яхт-клуб</h2>
+            <ul class = "footer-ul">
                 <li class = "footer-item"><a href = "#">Правила</a></li>
                 <li class = "footer-item"><a href = "#">Стоимость</a></li>
                 <li class = "footer-item"><a href = "#">Анкета</a></li>
                 <li class = "footer-item"><a href = "#">FAQ</a></li>
                 <li class = "footer-item"><a href = "#">Партнеры</a></li>
-                </ul>
-            </li>
-            <li>
+            </ul>
+            </div>
+          
+            <div class = "footer-text-item footer-services">
             <h2>Услуги</h2>
-            <ul class = "footer-title">
+            <ul class = "footer-ul">
                 <li class = "footer-item"><a href = "#">Аренда яхты</a></li>
                 <li class = "footer-item"><a href = "#">Свадьба на яхте</a></li>
                 <li class = "footer-item"><a href = "#">День рождения</a></li>
                 <li class = "footer-item"><a href = "#">Бизнес-встречи</a></li>
                 <li class = "footer-item"><a href = "#">Прогулки</a></li>
             </ul>
-            </li>
-            <li>
+            </div>
+           
+            <div class = "footer-text-item footer-regats">
             <h2>Регаты</h2>
-            <ul class = "footer-title">
+            <ul class = "footer-ul">
                 <li class = "footer-item"><a href = "#">Корпоративные регаты</a></li>
                 <li class = "footer-item"><a href = "#">Календарь мероприятий</a></li>
                 <li class = "footer-item"><a href = "#">Стать участником</a></li>
                 <li class = "footer-item"><a href = "#">Результаты регат</a></li>
                 <li class = "footer-item"><a href = "#">Обучение</a></li>
             </ul>
-            </li>
-        </ul>
+            </div>
+
+        </div>
+    </div>
     </footer>
 </body>
 </html>
+
+
+
+
+
+
 
 
 
