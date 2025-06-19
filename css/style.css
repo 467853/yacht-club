@@ -5,37 +5,75 @@ body{
     font-size: 16px;
     line-height: 24px;
     background-color: #FDFDFF;
-}
-
-header {
-    display: flex;
-    justify-content: space-between; 
-    align-items: center;
-    padding: 20px 50px; 
-}
-
-nav {
-    flex-grow: 1; 
-    text-align: right; 
-    margin-right: 30px;
-}
-
-.header-nav {
-    font-size: 14px;
-    line-height: 18px;
-    display: inline-flex; 
-    gap: 30px; 
-    list-style: none; 
-    padding: 0;
     margin: 0;
 }
 
-.header-nav a {
+header {
+    margin-left: 90px;
+    margin-right: 90px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+.header-block{
+    width: 1170px;
+    display: flex;
+    margin: 0 auto;
+}
+
+nav {
+
+    width: 559px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.header-nav{
+
+    display: flex;
+    justify-content:space-between;
+}
+
+.logo{
+    margin-right: 471px;
+}
+
+.account{
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+.header-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: unset;
     text-decoration: none;
-    color: unset; 
-    font-size: 14px;
-    line-height: 18px;
-    text-transform: uppercase;
+}
+
+.header-nav li a{
+    text-decoration: none;            
+    color: inherit;
+}
+
+main{
+    margin: 0 auto;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.main-photo-and-title h1{
+    margin-top: 0;
+	margin-bottom: 40px;
+}
+
+.main-photo-and-title{
+    width: 1170px;
+    margin: 0 auto;
+    margin-bottom: 120px;
 }
 
 h1{    
@@ -43,6 +81,49 @@ h1{
     font-weight: 400;
     font-size: 44px;
     line-height: 60px;
+    color: #163152;
+    margin-left: 70px;
+}
+
+.part-of-team{
+    width: 1030px;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 100px; 
+}
+
+.part-of-team-text{
+    margin-right: 30px;
+}
+
+.part-of-team h2{
+    margin-bottom: 35px;
+}
+
+.born-to-water{
+    width: 1030px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+    
+
+}
+
+.content{
+    margin-bottom: 120px;
+}
+
+.born-to-water h2{
+    margin-bottom: 35px;
+}
+
+.born-to-water-img{
+    margin-right: 30px;
+    
+}
+
+.born-to-water-text{
+    text-align: right;
 }
 
 h2 {
@@ -53,6 +134,7 @@ h2 {
     text-decoration-thickness: 2px;
     text-underline-offset: 15px;
     text-underline-position: under; 
+    margin-top:0;
 }
 
 .date{
@@ -66,9 +148,63 @@ h2 {
     text-decoration: none;
 }
 
+.pictures{
+    padding-bottom: 34px;
+}
+
+.gallery{
+    width: 1170px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+
+.gallery h2{
+    text-align: center;
+
+}
+
+.pictures{
+    width: 1170px;
+    margin: 0 auto;
+    margin-top: 55px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.other-photos{
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
 .news{
     font-size: 18px;
     line-height: 26px;
+    width: 770px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+
+}
+
+.news-block{
+    margin-top: 55px; 
+}
+
+.sailor-photo{
+    
+    width: 770px;
+    margin-left: -40px;
+    margin-right: 0;
+}
+
+figcaption{
+    margin-left: -40px;
+    color: #8693A4;
+    font-size: 16px;
+    line-height: 19px;
 }
 
 .news-title{
@@ -79,28 +215,54 @@ figure{
     margin-left: 40px;
 }
 
-figcaption{
-    color: #8693A4;
-    font-size: 16px;
-    line-height: 19px;
+.news-content{
+    margin-top: 27px;
 }
-
 
 h3{
     font-size: 22px;
     line-height: 26px;
+    padding: 0;
+    margin: 0;
+
+}
+
+.text-block{
+    margin-top: -5px;
+}
+
+.teams{
+    font-size: 20px;
+    padding-bottom: 12px;
+    padding-top: 12px;
 }
 
 .quote{
+    margin-top: 38px;
     display: flex;
-    margin-left: 40px;
+    margin-left: 0px;
     font-size: 26px;
     line-height: 36px;
+    padding-left: 18px; 
+    border-left: 2px solid #00c6bd; 
+}
+
+.news-bottom{
+    display: flex;
+}
+
+.news-bottom .autor{
+    margin-right: 15px;
+}
+
+.news-bottom .share{
+    margin-left: auto;
 }
 
 .name-and-date{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: space-around;
     font-size: 16px;
     line-height: 19px;
     white-space: pre
@@ -111,3 +273,102 @@ h3{
     font-size: 16px;
     line-height: 19px;
 }
+
+.contacts{
+    width: 1010px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-bottom: 120px; 
+}
+
+.contacts-text{
+    width: 240px;
+ 
+    margin-left: 100px;
+}
+
+.contacts-text h2{
+    margin-top: 50px;
+}
+
+.contacts-text ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contacts-text .contact-item{
+
+}
+
+.social-media {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0;
+}
+
+footer{
+ 
+   padding-top: 60px;
+   padding-bottom: 60px;
+}
+
+.footer-block{
+   width: 1280px; 
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+}
+
+.footer-block a{
+    text-decoration: none;            
+    color: inherit;
+}
+
+.footer-photo-and-copiright-text{
+    margin-left: 55px;
+    width: 175px;
+    font-size: 10px;
+    line-height: 12px;
+}
+
+.footer-text{
+    margin-right: 55px;
+    width: 870px;
+    display: flex;
+
+}
+
+.footer-text-item{
+    margin-right: 70px;
+    width: 165px;
+}
+
+.footer-regats{
+    margin-right: 0px;
+}
+
+
+.footer-text-item .footer-ul{
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-text-item .footer-ul li a{
+    text-decoration: none;            
+    color: inherit;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.footer-text-item h2{
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 18px;
+}
+
